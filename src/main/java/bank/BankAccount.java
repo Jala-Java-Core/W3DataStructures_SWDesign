@@ -7,7 +7,7 @@ public abstract class BankAccount {
     protected String accountId;
     protected Customer accountOwner;
 
-    public void open(double initialBalance) {}
+    public void open(double initialBalance){}
 
     public double deposit(double amount) {
         return amount;
